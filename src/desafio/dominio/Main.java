@@ -20,19 +20,15 @@ public class Main {
 
         System.out.println("---------------------");
 
-        Mentoria mentoria1 = new Mentoria();
+        Mentoria mentoria = new Mentoria();
         System.out.println("============MENTORIAS===========");
-        mentoria1.setTitulo("mentoria de java");
-        mentoria1.setDescricao("descrição mentoria java");
-        mentoria1.setData(LocalDate.now());
+        mentoria.setTitulo("mentoria de java");
+        mentoria.setDescricao("descrição mentoria java");
+        mentoria.setData(LocalDate.now());
 
-        Mentoria mentoria2 = new Mentoria();
-        mentoria2.setTitulo("mentoria de java");
-        mentoria2.setDescricao("descrição mentoria java");
-        mentoria2.setData(LocalDate.now());
-
-        System.out.println( mentoria1);
-        System.out.println( mentoria2 );
+        
+        System.out.println( mentoria );
+       
         
         System.out.println("---------------------");
     }
